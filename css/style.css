@@ -44,10 +44,7 @@ h2 {
     color: var(--main-color);
 }
 
-#testPolice {
-    font-family: "Raleway",sans-serif;
-    font-weight: 600;
-}
+
 
 body {
     margin: 0; 
@@ -246,7 +243,7 @@ input {
     justify-content: space-between;
 }
 .hebergement-cards .card{
-    width: 250px;
+    width: 240px;
     height: 192px;
     padding-bottom: 15px;
     margin-bottom:30px;
