@@ -23,7 +23,7 @@
         <nav>
             <ul class="header-nav">
                 <li class="header-nav-li"><a href="#hebergements-and-populaires">Hébergements</a></li>
-                <li class="header-nav-li"><a href="">Activités</a></li>
+                <li class="header-nav-li"><a href="#activites">Activités</a></li>
             </ul>
         </nav>
     </header>
@@ -32,41 +32,43 @@
             <section class="infos-search">
                 <div>
                     <h1>Trouver votre hébergement pour des vacances de rêves</h1>
-                    <p>En plein centre ville ou en pleine nature</p>
+                    <span>En plein centre ville ou en pleine nature</span>
                 </div>
                 <div>
                     <form action="" class="form">
-                        <div class="icon">
-                            <img src="icons/Group 15.svg" alt="icon google map">
-                        </div>
-                        <input type="text" id="input-rechercher" placeholder="Marseille,France" >
+                        <label class="icon" for="input-rechercher">
+                            <img src="icons/Group-15.svg" alt="icon google map">
+                        </label>
+                        <input type="text" id="input-rechercher" placeholder="Marseille, France" >
                         <button class="bouton-rechercher">
-                            <h2>Rechercher</h2>
+                            <span id="icon-loupe">Rechercher</span>
                         </button>
                     </form>
                 </div>
                 <div class="filtres">
-                    <h2>Filtres</h2>
-                    <div class="flex-filtre">
-                        <i class="fa-solid fa-money-bill-wave"></i>
-                        <h2>Économique</h2>
-                    </div>
-                    <div class="flex-filtre">
-                        <i class="fa-solid fa-person"></i>
-                        <h2>Familial</h2>
-                    </div>
-                    <div class="flex-filtre">
-                        <i class="fa-solid fa-heart"></i>
-                        <h2>Romantique</h2>
-                    </div>
-                    <div class="flex-filtre">
-                        <i class="fa-solid fa-fire"></i>
-                        <h2>Nos pépites</h2>
+                    <span class="filtres-title">Filtres</span>
+                    <div class="filtres-buttons">
+                        <div class="button-item">
+                            <i class="fa-solid fa-money-bill-wave"></i>
+                            <span class="filtres-txt">Économique</span>
+                        </div>
+                        <div class="button-item">
+                            <i class="fa-solid fa-person"></i>
+                            <span class="filtres-txt">Familial</span>
+                        </div>
+                        <div class="button-item">
+                            <i class="fa-solid fa-heart"></i>
+                            <span class="filtres-txt">Romantique</span>
+                        </div>
+                        <div class="button-item">
+                            <i class="fa-solid fa-fire"></i>
+                            <span class="filtres-txt">Nos pépites</span>
+                        </div>
                     </div>
 
                 </div>
                 <div class="flex-filtre2">
-                    <img src="icons/Icon info.svg" alt="icon lettre i">
+                    <img src="icons/Icon-info.svg" alt="icon lettre i">
                     <p>Plus de 500 logements sont disponible dans cette ville</p>
                 </div>
             </section>
@@ -224,7 +226,7 @@
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel Le soleil du matin</h3>
-                                        <p class="card-subtitle">Nuit à partir de 128<span class="euro">€</span></p>
+                                        <p class="card-subtitle">Nuit à partir de 25<span class="euro">€</span></p>
                                     </div>
                                     <div class="card-rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -286,7 +288,7 @@
                     <a href="#">
                         <div class="card">
                             <img src="images/activites/reno-laithienne.jpg" alt="photo Vieux Port de Marseille">
-                            <div class="card-content">
+                            <div class="card-content" id="card1">
                                 <h3 class="card-title">Vieux Port</h3>
                             </div>
                         </div>
@@ -295,7 +297,7 @@
                     <a href="#">
                         <div class="card">
                             <img src="images/activites/paul-hermann.jpg" alt="photo Vieux Port de Marseille">
-                            <div class="card-content">
+                            <div class="card-content" id="card2">
                                 <h3 class="card-title">Fort de Pomègues</h3>
                             </div>
                         </div>
@@ -304,16 +306,15 @@
                     <a href="#">
                         <div class="card">
                             <img src="images/activites/kilyan-sockalingum.jpg" alt="photo Vieux Port de Marseille">
-                            <div class="card-content">
+                            <div class="card-content" id="card3">
                                 <h3 class="card-title">Parc National de Calanques</h3>
                             </div>
                         </div>
-                        
                     </a>
                     <a href="#">
                         <div class="card">
                             <img src="images/activites/florian-wehde.jpg" alt="photo Vieux Port de Marseille">
-                            <div class="card-content">
+                            <div class="card-content" id="card4">
                                 <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                             </div>
                         </div>
