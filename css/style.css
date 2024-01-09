@@ -40,6 +40,13 @@ h2 {
 
 }
 
+ul {
+    padding-inline-start:0;
+    margin: 0;
+    list-style: none;
+
+}
+
 .fa-solid {
     color: var(--main-color);
 }
@@ -289,6 +296,7 @@ input::placeholder{
 .hebergement-cards .card-subtitle {
     margin-top: 0;
     margin-bottom: 8px;
+    font-size: 14px;
 }
 
 /****** Populaires ***********/
@@ -409,6 +417,11 @@ footer{
     font-weight: 700;
 }
 
+.footer-liens {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .footer-txt{
     margin: 0;
     font-size: 16px;
